@@ -75,6 +75,6 @@ QPREFERENCES_STRUCT(Preferences, "Preferences/Preferences.json"
                     )
 
 ```
-配置文件显示，双击可修改，会修改后会判断输入值是否与原本类型兼容，若不兼容则输入无效。
+配置文件显示，双击可修改，会修改后会判断输入值是否与原本类型兼容，若不兼容则输入无效。动图如下(动图有点大，加载可能会比较慢)
 
 ![./pic/QPreferences_gif.gif](./pic/QPreferences_gif.gif)
