@@ -120,6 +120,7 @@ public:
             dialog->resize(400, 600);
             dialog->exec();
             delete dialog;
+            load();
         }
         catch (const std::exception& e)
         {
