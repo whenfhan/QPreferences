@@ -1,7 +1,7 @@
 # QPreferences
 该项目是基于nlohmann/json的qt可视化配置文件，通过cmake可快速添加进项目。支持常用基本类型如基本类型和stl常用容器，若想添加不支持的类型，可参考nlohmann/json自行实现to_json和from_json函数。
 ## Learn
-1、创建配置文件结构体
+1、创建配置文件结构体 (默认值一定要加括号，下面有示例)
 ```c++
 QPREFERENCES_STRUCT(配置结构体名, 配置文件路径(若为子配置结构体，则写"")
                     , 类型, 变量名(与json文件命名相同), 默认值
